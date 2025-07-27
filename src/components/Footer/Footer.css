@@ -1,0 +1,36 @@
+.footer {
+    margin: 50px 170px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top-left img {
+    margin-top: -8px;
+}
+
+.footer-top-left {
+    font-size: 20px;
+    display: flex;
+    gap: 25px;
+}
+
+.footer-bottom {
+    border: none;
+    display: flex;
+    flex-direction: start;
+    justify-content: space-between;
+    font-size: 18px;
+    padding-left: 0px;
+}
+
+.bordered {
+    border-top: 1px solid white;
+    margin-top: 40px;
+}
+
+.footer-bottom-right {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
