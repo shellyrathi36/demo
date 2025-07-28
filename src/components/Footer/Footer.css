@@ -34,3 +34,25 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+@media(max-width:768px) {
+    .footer {
+        gap: 50px;
+        align-items: start;
+        margin: 60px 70px;
+    }
+    .footer-top-left img {
+        padding: 0;
+    }
+    .footer-top-left p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .footer-bottom {
+        gap: 30px;
+        font-size: 15px;
+    }
+    .footer-bottom-right p {
+        font-size: 15px;
+    }
+}

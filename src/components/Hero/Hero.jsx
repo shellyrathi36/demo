@@ -3,6 +3,12 @@ import "./Hero.css";
 import profile_img from "../../assets/profile_img.jpg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 const Hero = () => {
+  const onClick = () => {
+    window.open(
+      "https://drive.google.com/file/d/1JoqqPJp8PmGVapXH2ZU0B4rf6EGbSk_i/view?usp=drive_link",
+      "_blank"
+    );
+  };
   return (
     <div id="home" className="hero">
       <img
@@ -26,7 +32,9 @@ const Hero = () => {
             Connect with me
           </AnchorLink>
         </div>
-        <div className="hero-resume">My Resume</div>
+        <div onClick={onClick} className="hero-resume">
+          My Resume
+        </div>
       </div>
     </div>
   );
