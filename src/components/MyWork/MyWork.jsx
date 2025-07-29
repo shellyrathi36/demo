@@ -32,7 +32,12 @@ const MyWork = () => {
           );
         })}
       </div>
-      <div className="mywork-showmore">
+      <div
+        onClick={() =>
+          window.open("https://github.com/shellyrathi36", "_blank")
+        }
+        className="mywork-showmore"
+      >
         <p>Show More</p>
         <img src={arrow_icon} alt="arrow-icon"></img>
       </div>

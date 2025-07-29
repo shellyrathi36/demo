@@ -47,7 +47,11 @@ const Contact = () => {
           <div className="contact-details">
             <div className="contact-detail">
               <img src={mail_icon} alt="mail-icon"></img>
-              <p>shellyrathi36@gmail.com</p>
+              <p
+                onClick={() => window.open("shellyrathi36@gmail.com", "_blank")}
+              >
+                shellyrathi36@gmail.com
+              </p>
             </div>
             <div className="contact-detail">
               <img src={call_icon} alt="call-icon"></img>
